@@ -1,0 +1,163 @@
+.bacground {
+   
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin-top: 0%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-color: #cbe9e6ed;
+  }
+  .regbox {
+    display: flex;
+    border: 1px 20px solid white;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-left: 29%;
+    position: relative;
+    width: 38%;
+    height: 88vh;
+    border-radius: 5px;
+    box-shadow: inset 0 -3em 3em #4c9690a8, 0 0 0 2px rgb(164, 233, 218),
+      0.3em 0.3em 1em rgb(185, 233, 228);
+    background-color:#b0d0cfed;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  #logo {
+    width: 308px;
+    border-radius: 284px;
+    position: absolute;
+    top: 18px;
+    left: 126px;
+  }
+  #banner {
+    margin-top: 184px;
+    height: 53vh;
+  }
+  /* label {
+    font-size: 40px;
+  }
+  .inputsbox {
+    display: inline;
+  }
+  input {
+    width: 301px;
+    height: 76px;
+  } */
+  .container {
+    width: 486px;
+    background-color: #ccf3ee;
+    border-top-left-radius: 122px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    margin-left: 114px;
+    height: 78vh;
+  }
+  
+  .regform {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+  
+    text-align: center;
+    background-color: #ccf3ee;
+  }
+  
+  .regform.head {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .regform .head span {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: black;
+    margin-top: -21px;
+  }
+  
+  .regform .head p {
+    font-size: 1.1rem;
+    color: #ffc107;
+  }
+  
+  .regform .inputs {
+    background-color: #fff;
+    width: 368px;
+    height: 44px;
+    font-size: 13px;
+    margin: 0.2rem 0.5rem;
+    border-radius: 8px;
+    border-bottom: none;
+    outline: 0;
+  }
+  
+  .regform .inputs input {
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.299);
+    font-weight: 200;
+  }
+  
+  .regform button {
+    background-color: #005d72;
+    color: white;
+    width: 36%;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+  
+  .regform button:hover {
+    background-color: #005ce6;
+  }
+  
+  .form-footer {
+    /* background-color: #b7d7fa; */
+    padding: 16px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .form-footer a {
+    font-weight: bolder;
+    color: #0066ff;
+    transition: all 3s ease-in-out;
+  }
+  
+  .form-footer a:hover {
+    color: #005ce6;
+  }
+  .span {
+    color: rgb(242, 181, 181);
+    font-size: 12px;
+    display: none;
+  }
+  #link {
+    color: #f8a519;
+    text-decoration: none;
+  }
+  
+  input:invalid[foucsed="true"] {
+    border: 1px solid red;
+  }
+  input:invalid[foucsed="true"] ~ .span {
+    display: block;
+  }
+  

@@ -1,0 +1,28 @@
+/* loader */
+.spans {
+    color: #1976d2;
+    font-size: 20px;
+    transition: 2ms ease-in;
+  }
+  
+  .spans:hover {
+    color: black;
+    font-size: 22px;
+  }
+  .backimg {
+    position: relative;
+  }
+  .backimgs {
+    width: 100%;
+    /* height: 89vh; */
+  }
+  .carouse {
+    /* position: absolute;
+    top: 223px;
+    right: 579px; */
+    /* width: 277px; */
+    z-index: 999;
+    margin-top: -30%;
+    margin-left: 587px;
+  }
+  

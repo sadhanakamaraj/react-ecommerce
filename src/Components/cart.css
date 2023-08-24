@@ -1,0 +1,25 @@
+.logobtn {
+    font-size: 25px;
+    color: #056763;
+    cursor: pointer;
+  }
+  .remove {
+    font-size: 25px;
+    color: rgb(224, 49, 43);
+    cursor: pointer;
+  }
+  .logobtn:hover {
+    font-size: 30px;
+  }
+  .remove:hover {
+    font-size: 30px;
+  }
+  .anime {
+    font-size: 100px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-left: 100px;
+    align-items: center;
+  }
+  

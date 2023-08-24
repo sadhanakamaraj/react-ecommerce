@@ -1,0 +1,12 @@
+.btnse {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .btnsee {
+    width: 100%;
+    border-radius: 10px;
+  }
+  #root {
+    background-color: #a8b5b59e;
+  }
+  

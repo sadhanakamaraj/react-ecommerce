@@ -1,0 +1,37 @@
+.profcont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    padding: 20px;
+  }
+  #img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 2px 0px 3px solid black;
+  }
+  #imgbox {
+    box-sizing: border-box;
+    border: 5px solid #67a8f0;
+    /* box-shadow: 10px 10px 5px #e1f3f9; */
+    border-radius: 52px;
+  }
+  .namediv {
+    margin-top: 49px;
+    margin-left: 55px;
+  }
+  .addressbar {
+    margin-top: 60px;
+  }
+  .lableprofile {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -70px;
+    color: #46ffff;
+  }
+  .cont {
+    color: rgb(252, 249, 249);
+  }
+  

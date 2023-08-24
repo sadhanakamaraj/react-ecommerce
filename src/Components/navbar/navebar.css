@@ -1,0 +1,103 @@
+.logo {
+    height: 60px;
+    width: 100px; 
+    padding-right: 20px;
+  }
+  .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    box-shadow: none;
+  }
+  .back {
+    background-color: #1f28a7;
+    /* background: rgba(0, 0, 0, 0.1) */
+    box-shadow: none;
+  }
+  .setting {
+    color: rgb(0, 161, 210);
+  }
+  .btnhov {
+    color: chocolate;
+    transition: 0.4s ease-in-out;
+  }
+  .btnhov:hover {
+    color: cadetblue;
+    font-size: 20px;
+  }
+  .navform {
+    background-color:  #1f28a7;
+    width: 40%;
+  }
+  .navinput {
+    height: 35px;
+    line-height: 28px;
+    padding: 0 1rem;
+    width: 60%;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    outline: none;
+    /* background-color: #ffffff; */
+    color: #788ce7;
+    box-shadow: 0 0 5px #fefefe, 0 0 0 5px #f5f5f5eb;
+    transition: 0.3s ease;
+    position: relative;
+  }
+  .navinput:focus {
+    height: 30px;
+    width: 100%;
+  }
+  .searchicon {
+    position: absolute;
+    color:whitesmoke;
+    font-size: 25px;
+    left: 35%;
+    bottom: 26px;
+  }
+  /* .navinput:hover .searchicon {
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    left: 0%;
+  } */
+  .css-4yktcr-MuiSvgIcon-root {
+    font-size: 50px;
+  }
+  .toglediv {
+    display: flex;
+    align-items: center;
+    margin-left: 183px;
+  }
+  .togle {
+    margin-right: 36px;
+    font-size: 35px;
+    color: #6bb0ff;
+    cursor: pointer;
+  }
+  .set {
+    margin-left: 0px;
+    transition: ease 3ms;
+  }
+  .set:focus {
+    border: none;
+  }
+  /* .set {
+    margin-left: 0px;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  } */
+  .cnvs {
+    background-color: #434b91;
+  }
+  #cnvshead {
+    background-color: #434b91;
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .logo {
+      height: 60px;
+      width: 146px;
+    }
+  }
+  

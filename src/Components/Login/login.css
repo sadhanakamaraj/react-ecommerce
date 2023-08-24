@@ -1,0 +1,112 @@
+.lcontainer {
+    height: 100vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  
+    /* background-image: url(../../projectimg/bacground.webp); */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    margin-top: 0%;
+    background-repeat: no-repeat;
+  }
+  .classic {
+    width: 75%;
+    height: 72vh;
+  
+    border-radius: 10px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+  }
+  /* #leftimge {
+    height: 542px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  } */
+  
+  .right {
+    height: 73vh;
+    width: 43%;
+    background-color: #b7d7fa;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  /* login box */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #b7d7fa;
+    padding: 2.5em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 73vh;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .form:hover {
+    transform: translateX(-0.5em) translateY(-0.5em);
+    border: 1px solid #171717;
+    box-shadow: 10px 10px 0px #666666;
+  }
+  .imgg {
+    height: 48px;
+  }
+  
+  .heading {
+    color: black;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .input {
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    width: 84%;
+    margin: 20px;
+    outline: none;
+    padding: 0.7em;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .input:hover {
+    box-shadow: 6px 6px 0px #969696, -3px -3px 10px #ffffff;
+  }
+  
+  .input:focus {
+    background: #ffffff;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .form .btn {
+    margin-top: 2em;
+    align-self: center;
+    padding: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    transition: 0.4s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+  }
+  
+  .form .btn:hover {
+    box-shadow: 6px 6px 0px #969696, -3px -3px 10px #ffffff;
+    transform: translateX(-0.5em) translateY(-0.5em);
+  }
+  
+  .form .btn:active {
+    transition: 0.2s;
+    transform: translateX(0em) translateY(0em);
+    box-shadow: none;
+  }
+  
